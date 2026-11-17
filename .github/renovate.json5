@@ -1,0 +1,32 @@
+/*
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+ */
+{
+  // Renovate (https://docs.renovatebot.com/) already applies to every xwiki-contrib repository, without this file: it
+  // inherits the configuration of https://github.com/xwiki-contrib/renovate-config, which extends the preset shared by
+  // the xwiki-contrib repositories, https://github.com/xwiki-contrib/.github/blob/master/renovate/default.json5 (itself
+  // extending the preset of the xwiki organization). Improvements useful to every contrib repository go in that preset.
+  //
+  // Only add here what is specific to this repository, applied on top of the inherited configuration, for example:
+  // * extra "packageRules" (concatenated with the presets' ones, while any other array replaces the presets' value);
+  // * "enabled": false to disable Renovate for this repository;
+  // * "ignorePresets": ["github>xwiki-contrib/.github//renovate/default.json5"] to not use the shared preset.
+  // See https://docs.renovatebot.com/configuration-options/ for all the options. If nothing is needed, keep this file
+  // as is or delete it.
+}
